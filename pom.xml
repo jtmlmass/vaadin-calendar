@@ -41,8 +41,7 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-
-        //Calendar
+        <!--  Calendar-->
         <repository>
             <id>vaadin-addons</id>
             <url>https://maven.vaadin.com/vaadin-addons</url>
@@ -77,7 +76,7 @@
                 <version>1.4.197</version>
                 <scope>test</scope>
             </dependency>
-            //Calendar
+<!--            Calendar-->
             <dependency>
                 <groupId>org.vaadin.stefan</groupId>
                 <artifactId>fullcalendar2-scheduler</artifactId>
@@ -140,11 +139,6 @@
             <groupId>org.vaadin.artur.exampledata</groupId>
             <artifactId>exampledata</artifactId>
             <version>1.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
         </dependency>
 
         <dependency>
