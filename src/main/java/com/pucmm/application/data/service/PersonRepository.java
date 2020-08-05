@@ -1,0 +1,9 @@
+package com.pucmm.application.data.service;
+
+import com.pucmm.application.data.entity.Person;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PersonRepository extends JpaRepository<Person, Integer> {
+
+}

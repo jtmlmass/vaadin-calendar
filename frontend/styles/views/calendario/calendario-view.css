@@ -1,0 +1,6 @@
+#calendario-view {
+  display: block;
+}
+:host {
+  display: block;
+}
